@@ -17,4 +17,4 @@ app.post("/echo", function(req, res) {
 })
 
 var server = http.createServer(app);
-server.listen(port);
+server.listen(port, "127.0.0.1");
